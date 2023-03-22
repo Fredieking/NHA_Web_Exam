@@ -47,13 +47,13 @@ display: inline-block;
 }
 #inhoudeen{
 width: 30%;
-min-height: 610px;
+min-height: 700px;
 background-color: purple;
 float: left;
 }
 #inhoudtwee{
 width: 70%;
-min-height: 610px;
+min-height: 700px;
 background-color: pink;
 float: left;
 }
