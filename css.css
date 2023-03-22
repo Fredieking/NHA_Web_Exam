@@ -78,6 +78,5 @@ button:active{background-color: darkgreen;color: white;border-radius: 4px; box-s
 footer{
 min-height: 100px;
 background-color: yellow;
-justify-content:center;
-   align-items:center;
+align-items:center;
 }
