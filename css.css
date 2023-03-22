@@ -1,142 +1,73 @@
-html{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    background-color: orange;
+body{
 }
+[class*="col-"] {width: 100%;}
+.header{
+  width:100%;
+  height:300px;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+  background-color: blue;
+  background-image: url("img/alkmaar.jpg");
+  /*background-size: cover;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;;
+}
+.h1{
+    color:Orange;
+    font: 30px Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media only screen and (min-width: 1200px)
+{body{}{
+[class*="col-"] {float: left;padding: 15px;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}}
 
-header{
-  width: 100%;
-  height: 200px;
-  text-align: center;
-  padding: 5px;
-  color: black;
-  background-color: orange;
-  }
 
-  .buttonClass {
-    font-size:15px;
-    font-family:Arial;
-    width:100px;
-    height:50px;
-    border-width:1px;
-    color:#fff;
-    border-color:#d0451b;
-    border-top-left-radius:3px;
-    border-top-right-radius:3px;
-    border-bottom-left-radius:3px;
-    border-bottom-right-radius:3px;
-    box-shadow:inset 0px 1px 0px 0px #cf866c;
-    text-shadow:inset 0px 1px 0px #854629;
-    background:linear-gradient(#d0451b, #d0451b);
-  }
 
-  .buttonClass:hover {
-    background: linear-gradient(#d0451b, #d0451b);
+.header{
+background-color: green;
 }
-
-img{align-self: auto;
+.section{
+width: 50%;
+display: inline-block;
 }
-
-body {
-  font-family: Georgia, "Times New Roman",
-  Times, serif;
-  padding: 5px;
-  color: purple;
-  background: white;
-  align-self: auto;
+#inhoudeen{
+width: 30%;
+min-height: 400px;
+background-color: purple;
+float: left;
 }
-table, th, td{
-  padding: 15px;
-  text-align: center;
-  border: 2px solid black;
-  border-spacing: 15px;
-}
-
-textarea{height: 100px;padding: 5px 4px;}
-
-input[type="text"], input[type="email"], textarea, select, button{display: block;
-margin: 15px 0px;width: 400px;box-sizing: border-box;border-radius: 4px;
-box-shadow: inset 2px 2px 5px lightgreen;
-}
-
-button:active{background-color: darkgreen;color: white;border-radius: 4px; box-shadow: inset 2px 2px 5px blue;}
-
-.random1{
-  color: purple;
-  background-color: #FFFF00;
-}
-.random2{
-  color: red;
-  background-color: #66FF33;
-}
-.random3{
-  color: orange;
-  background-color: #6633FF;
-}
-.random4{
-  color: yellow;
-  background-color: #FF99FF;
-}
-.random5{
-  color: blue;
-  background-color: #FF6633;
-}
-.random6{
-  color: red;
-  background-color: #99CC99;
-}
-.random7{
-  color: yellow;
-  background-color: #663366;
-}
-.random8{
-  color: orange;
-  background-color: #0033CC;
-}
-.city{
-  color: orange;
-  background-color: #0033CC;
-}
-.cityp{
-  color: blue;
-  background-color: #996633;
-}
-.cityl{
-  color: red;
-  background-color: #33cc99;
-}
-.cityb{
-  color: yellow;
-  background-color: #cc3300;
-}
-.weers{
-  color: black;
-  background-color: #ffffff;
-}
-.weerh{
-  color: black;
-  background-color: #ccffff;
-}
-.weerr{
-  color: black;
-  background-color: #00ffff;
-}
-.weerz{
-  color: black;
-  background-color: #ffff66;
+#inhoudtwee{
+width: 70%;
+min-height: 400px;
+background-color: pink;
+float: left;
 }
 
 
+img{
+width:100px;
+height: 100px;
+float:right ;
+
+}
 
 footer{
-  width: auto;
-  height: 150px;
-  text-align: center;
-  padding: 5px;
-  color: red;
-  background-color: #66FF33
+min-height: 100px;
+background-color: yellow;
+clear: left;
 }
