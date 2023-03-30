@@ -6,7 +6,7 @@ body{
   height:300px;
   overflow-y: hidden ! important;
   overflow-x: hidden ! important;
-  background-color: blue;
+  background-color: #f28800;
   background-image: url("img/alkmaar.jpg");
   /*background-size: cover;*/
   background-size: contain;
@@ -41,12 +41,13 @@ body{
   height:300px;
   overflow-y: hidden ! important;
   overflow-x: hidden ! important;
-  background-color: blue;
+  background-color: #f28800;
   background-image: url("img/alkmaar.jpg");
   /*background-size: cover;*/
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;;
+  background-position: center;
+  text-align: center;
 }
 .h1{
     color:Orange;
