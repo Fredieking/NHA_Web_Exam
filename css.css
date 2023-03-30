@@ -111,10 +111,10 @@ textarea{height: 100px;padding: 5px 4px;}
 
 input[type="text"], input[type="email"], textarea, select, button{display: block;
 margin: 15px 0px;width: 100%;box-sizing: border-box;border-radius: 4px;
-box-shadow: inset 2px 2px 5px #FED8B1;
+box-shadow: inset 2px 2px 5px orange;
 }
 
-button:active{background-color: #FED8B1;color: black;border-radius: 4px; box-shadow: inset 2px 2px 5px lightyellow;}
+button:active{background-color: orange;color: black;border-radius: 4px; box-shadow: inset 2px 2px 5px lightyellow;}
 
 footer{
   text-align: center;
