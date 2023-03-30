@@ -100,13 +100,13 @@ float:right ;
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #c5da01;
-  color: black;
+  color: #e6ff00;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #04AA6D;
-  color: white;
+  color: #e6ff00;
 }
 
 table{ width: 100%;}
