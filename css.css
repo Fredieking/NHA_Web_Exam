@@ -62,13 +62,13 @@ display: inline-block;
 #inhoudeen{
 width: 30%;
 height: 700px;
-background-color: purple;
+background-color: light-orange;
 float: left;
 }
 #inhoudtwee{
 width: 70%;
 height: 700px;
-background-color: pink;
+background-color: orange;
 float: left;
 }
 
