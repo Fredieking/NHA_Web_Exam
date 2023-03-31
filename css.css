@@ -74,9 +74,9 @@ float: left;
 }
 
 
-.img{
-max-width:100%;
-height: auto;
+img{
+  max-width:100%;
+  object-fit: scale-down;
 }
 
 .topnav {
