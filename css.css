@@ -60,12 +60,7 @@ body{
 width: 50%;
 display: inline-block;
 }
-.section img{
 
-    max-width:100%;
-    object-fit: scale-down;
-
-}
 #inhoudeen{
 width: 30%;
 height: 700px;
