@@ -61,19 +61,21 @@ width: 50%;
 display: inline-block;
 }
 
+.div{
+  padding-left: 5px;
+}
+
 #inhoudeen{
 width: 30%;
 height: 700px;
 background-color: #d89b0f;
 float: left;
-padding-left: 5px;
 }
 #inhoudtwee{
 width: 70%;
 height: 700px;
 background-color: #d8800f;
 float: left;
-padding-left: 10px;
 }
 
 
