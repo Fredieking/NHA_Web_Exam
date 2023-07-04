@@ -132,7 +132,7 @@ button:active {
 }
 
 @media only screen and (min-width: 1200px) {
-  body {
+
     [class*="col-"] {
       float: left;
       padding: 15px;
@@ -191,4 +191,3 @@ button:active {
     width: 50%;
     display: inline-block;
   }
-}
