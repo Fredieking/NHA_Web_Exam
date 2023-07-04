@@ -48,10 +48,6 @@ display: inline-block;
   align-items: stretch;
 }
 
-.item{
-  flex-basis: auto;
-}
-
 #inhoudeen{
 width: 30%;
 height: auto;
