@@ -71,12 +71,12 @@ img{
 }
 
 .image{
-    width: 50%;
+    width: 100%;
     object-fit: scale-down;
 }
 
 .photo{
-  width: 25%;
+  width: 50%;
   object-fit: scale-down;
   float: right;
 }
