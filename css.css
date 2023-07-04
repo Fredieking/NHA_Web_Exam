@@ -120,6 +120,11 @@ button:active {
   float: left;
   overflow: auto;
 }
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
 @media only screen and (min-width: 1200px)
 {body{
 [class*="col-"] {float: left;padding: 15px;}
@@ -140,38 +145,5 @@ button:active {
 .section{
 width: 50%;
 display: inline-block;
-}
-
-
-
-
-.container{
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-}
-
-#inhoudeen{
-width: 30%;
-height: auto;
-background-color: #d89b0f;
-float: left;
-}
-#inhoudtwee{
-width: 70%;
-height: auto;
-background-color: #d8800f;
-float: left;
-overflow: auto;
-}
-
-
-
-
-footer{
-  text-align: center;
-min-height: 100px;
-background-color: yellow;
-clear: left;
 }
 }
