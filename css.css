@@ -1,4 +1,4 @@
-body{
+body{}
 [class="col-"] {
   width: 100%;
 }
@@ -124,7 +124,7 @@ button:active {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
-}}
+}
 @media only screen and (min-width: 1200px)
 {
 [class*="col-"] {float: left;padding: 15px;}
