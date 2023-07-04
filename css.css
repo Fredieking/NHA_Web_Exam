@@ -62,11 +62,6 @@ img{
   object-fit: scale-down;
 }
 
-img1{
-    max-width: 25%;
-    object-fit: scale-down;
-}
-
 .topnav {
   overflow: hidden;
   background-color: orange;
