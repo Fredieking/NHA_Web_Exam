@@ -65,7 +65,7 @@ overflow: auto;
 }
 
 
-img{
+.img{
   width:50%;
   object-fit: scale-down;
 }
