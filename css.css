@@ -70,6 +70,16 @@ img{
   object-fit: scale-down;
 }
 
+.imgs{
+    width: 25%;
+    object-fit: scale-down;
+}
+
+.imgh{
+  width: 25%;
+  object-fit: scale-down;
+  float: right;
+}
 
 .topnav {
   overflow: hidden;
