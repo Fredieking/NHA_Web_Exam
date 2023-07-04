@@ -70,6 +70,12 @@ img{
   object-fit: scale-down;
 }
 
+.imgh {
+  max-width: 50%;
+  object-fit: scale-down;
+  float:right;
+}
+
 .topnav {
   overflow: hidden;
   background-color: orange;
