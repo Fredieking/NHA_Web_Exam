@@ -70,12 +70,12 @@ img{
   object-fit: scale-down;
 }
 
-.imgs{
+.image{
     width: 25%;
     object-fit: scale-down;
 }
 
-.imgh{
+.photo{
   width: 25%;
   object-fit: scale-down;
   float: right;
