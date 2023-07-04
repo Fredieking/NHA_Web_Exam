@@ -66,23 +66,23 @@ overflow: auto;
 
 
 .img{
-  width:50%;
+  width:25%;
   object-fit: scale-down;
 }
 
 .image{
-    width: 100%;
+    width: 50%;
     object-fit: scale-down;
 }
 
 .photo{
-  width: 100%;
+  width: 50%;
   object-fit: scale-down;
   float: right;
 }
 
 .foto{
-  width: 75%;
+  width: 25%;
   object-fit: scale-down;
   float: left;
 }
