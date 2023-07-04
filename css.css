@@ -1,6 +1,4 @@
-body {
-
-[class*="col-"] {
+[class="col-"] {
   width: 100%;
 }
 
@@ -69,7 +67,6 @@ footer {
   background-color: #d8800f;
   float: left;
   overflow: auto;
-}
 }
 @media only screen and (min-width: 1200px)
 {body{
