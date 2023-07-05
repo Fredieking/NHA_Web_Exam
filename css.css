@@ -74,7 +74,7 @@ img.image {
 }
 
 img.photo {
-  width: 50%;
+  width: 25%;
   object-fit: scale-down;
   float: right;
 }
