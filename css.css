@@ -2,141 +2,190 @@
   width: 100%;
 }
 
-
-
-
-
-@media only screen and (min-width: 1200px){
-
- .header {
-   width: 100%;
-   height: 300px;
-   overflow-y: hidden ! important;
-   overflow-x: hidden ! important;
-   background-color: #f28800;
-   /*background-size: cover;*/
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
-   ;
- }
-
- .h1 {
-   color: Orange;
-   font: 30px Arial, sans-serif;
-   text-align: center;
-   background-size: cover;
-   background-repeat: no-repeat;
- }
-
- .topnav {
-   overflow: hidden;
-   background-color: orange;
- }
-
- .topnav a {
-   float: left;
-   color: black;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
- }
-
- .topnav a:hover {
-   background-color: #fff100;
-   color: black;
- }
-
- .topnav a.active {
-   background-color: #fff100;
-   color: black;
- }
-
-
-
- .text {
-   padding-left: 5px;
-   padding-right: 5px;
- }
-
- img {
-   width: 50%;
-   object-fit: scale-down;
- }
-
- img.image {
-   width: 50%;
-   object-fit: scale-down;
- }
-
- img.photo {
-   width: 25%;
-   object-fit: scale-down;
-   float: right;
- }
-
- img.foto {
-   width: 25%;
-   object-fit: scale-down;
-   float: left;
- }
-
- table {
-   width: 100%;
- }
-
- textarea {
-   height: 100px;
-   padding: 5px 4px;
- }
-
- input[type="text"],
- input[type="email"],
- textarea,
- select,
- button {
-   display: block;
-   margin: 15px 0px;
-   width: 100%;
-   box-sizing: border-box;
-   border-radius: 4px;
-   box-shadow: inset 2px 2px 5px orange;
- }
-
- button:active {
-   background-color: orange;
-   color: black;
-   border-radius: 4px;
-   box-shadow: inset 2px 2px 5px lightyellow;
- }
-
- #inhoudeen {
-   width: auto;
-   height: 30%;
-   background-color: #d89b0f;
-   float: left;
- }
-
- #inhoudtwee {
-   width: auto;
-   height: 70%;
-   background-color: #d8800f;
-   float: left;
-   overflow: auto;
- }
-  .container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
+@media only screen and (min-width: 1200px) {
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
   }
-  .section {
+
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
     width: 50%;
-    display: inline-block;
   }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.header {
+  width: 100%;
+  height: 300px;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+  background-color: #f28800;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  ;
+}
+
+.h1 {
+  color: Orange;
+  font: 30px Arial, sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fff100;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #fff100;
+  color: black;
+}
+
+.text {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+img {
+  width: 50%;
+  object-fit: scale-down;
+}
+
+.image {
+  width: 50%;
+  object-fit: scale-down;
+}
+
+.photo {
+  width: 25%;
+  object-fit: scale-down;
+  float: right;
+}
+
+.foto {
+  width: 25%;
+  object-fit: scale-down;
+  float: left;
+}
+
+table {
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+  padding: 5px 4px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+button {
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px orange;
+}
+
+button:active {
+  background-color: orange;
+  color: black;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px lightyellow;
+}
+
+#inhoudeen {
+  width: auto;
+  height: 30%;
+  background-color: #d89b0f;
+  float: left;
+}
+
+#inhoudtwee {
+  width: auto;
+  height: 70%;
+  background-color: #d8800f;
+  float: left;
+  overflow: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.section {
+  width: 50%;
+  display: inline-block;
+}
+
 footer {
   text-align: center;
   min-height: 100px;
   background-color: yellow;
   clear: left;
-}}
+}
