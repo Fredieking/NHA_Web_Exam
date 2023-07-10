@@ -1,4 +1,5 @@
 body {}
+
 [class*="col-"] {
   width: 100%;
 }
@@ -24,118 +25,120 @@ body {}
   background-repeat: no-repeat;
 }
 
-    #inhoudeen {
-      height: auto;
-      background-color: #d89b0f;
-      float: left;
-    }
-  
-    #inhoudtwee {
-      height: auto;
-      background-color: #d8800f;
-      float: left;
-    }
-    img {
-      max-width: 50%;
-      object-fit: scale-down;
-    }
-  
-    .foto {
-      max-width: 25%;
-      object-fit: scale-down;
-      clear: left;
-    }
-  
-    .photo {
-      max-width: 25%;
-      object-fit: scale-down;
-      clear: right;
-    }
-  
-    .image {
-      max-width: 25%;
-      object-fit: scale-down;
-    }
-  
-    .text {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-  
-    .foto {
-      max-width: 50%;
-      object-fit: scale-down;
-    }
-  
-    .photo {
-      max-width: 50%;
-      object-fit: scale-down;
-    }
-  
-    .text {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-  
-    .topnav {
-      overflow: hidden;
-      background-color: orange;
-    }
-  
-    .topnav a {
-      float: left;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-  
-    .topnav a:hover {
-      background-color: #fff100;
-      color: black;
-    }
-  
-    .topnav a.active {
-      background-color: #fff100;
-      color: black;
-    }
-  
-    table {
-      width: 100%;
-    }
-  
-    textarea {
-      height: 100px;
-      padding: 5px 4px;
-    }
-  
-    input[type="text"],
-    input[type="email"],
-    textarea,
-    select,
-    button {
-      display: block;
-      margin: 15px 0px;
-      width: 100%;
-      box-sizing: border-box;
-      border-radius: 4px;
-      box-shadow: inset 2px 2px 5px orange;
-    }
-  
-    button:active {
-      background-color: orange;
-      color: black;
-      border-radius: 4px;
-      box-shadow: inset 2px 2px 5px lightyellow;
-    }
-  
-    footer {
-      text-align: center;
-      min-height: 100px;
-      background-color: yellow;
-      clear: left;
-    }
+#inhoudeen {
+  height: auto;
+  background-color: #d89b0f;
+  float: left;
+}
+
+#inhoudtwee {
+  height: auto;
+  background-color: #d8800f;
+  float: left;
+}
+
+img {
+  max-width: 50%;
+  object-fit: scale-down;
+}
+
+.foto {
+  max-width: 25%;
+  object-fit: scale-down;
+  clear: left;
+}
+
+.photo {
+  max-width: 25%;
+  object-fit: scale-down;
+  clear: right;
+}
+
+.image {
+  max-width: 25%;
+  object-fit: scale-down;
+}
+
+.text {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.foto {
+  max-width: 50%;
+  object-fit: scale-down;
+}
+
+.photo {
+  max-width: 50%;
+  object-fit: scale-down;
+}
+
+.text {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: orange;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fff100;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #fff100;
+  color: black;
+}
+
+table {
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+  padding: 5px 4px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+button {
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px orange;
+}
+
+button:active {
+  background-color: orange;
+  color: black;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px lightyellow;
+}
+
+footer {
+  text-align: center;
+  min-height: 100px;
+  background-color: yellow;
+  clear: left;
+}
+
 @media only screen and (min-width: 1200px) {
   body {}
 
@@ -191,6 +194,7 @@ body {}
   .col-12 {
     width: 100%;
   }
+
   .container {
     display: flex;
     justify-content: flex-start;
