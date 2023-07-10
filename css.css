@@ -9,7 +9,6 @@ body {}
   overflow-y: hidden ! important;
   overflow-x: hidden ! important;
   background-color: #f28800;
-  background-image: url("img/alkmaar.jpg");
   /*background-size: cover;*/
   background-size: contain;
   background-repeat: no-repeat;
@@ -24,6 +23,18 @@ body {}
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+    #inhoudeen {
+      height: auto;
+      background-color: #d89b0f;
+      float: left;
+    }
+  
+    #inhoudtwee {
+      height: auto;
+      background-color: #d8800f;
+      float: left;
+    }
     img {
       max-width: 50%;
       object-fit: scale-down;
