@@ -39,7 +39,6 @@ body {}
 }
 
 img {
-  max-width: auto;
   object-fit: scale-down;
 }
 
