@@ -56,7 +56,6 @@ img {
 .photoleft {
   max-width: 50%;
   object-fit: scale-down;
-  clear: left;
 }
 
 .image {
