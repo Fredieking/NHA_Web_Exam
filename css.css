@@ -138,12 +138,12 @@ body {}
   .foto{
     max-width: 25%;
     object-fit: scale-down;
-    align-self: right;
+    float: right;
   }
   .photo {
     max-width: 25%;
     object-fit: scale-down;
-    align-self:left;
+    float:left;
   }
 
   .image {
