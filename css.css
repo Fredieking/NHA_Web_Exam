@@ -1,9 +1,7 @@
-body {}
-
 [class*="col-"] {
   width: 100%;
 }
-
+body {}
 .header {
   width: 100%;
   height: 300px;
