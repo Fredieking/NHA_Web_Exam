@@ -39,7 +39,7 @@ body {}
 }
 
 img {
-  max-width: 50%;
+  max-width: auto;
   object-fit: scale-down;
 }
 
