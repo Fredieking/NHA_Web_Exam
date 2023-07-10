@@ -129,6 +129,21 @@ body {}
     object-fit: scale-down;
   }
 
+  .foto{
+    max-width: 50%;
+    object-fit: scale-down;
+  }
+
+  .photo {
+    max-width: 50%;
+    object-fit: scale-down;
+  }
+
+  .text {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
   .topnav {
     overflow: hidden;
     background-color: orange;
