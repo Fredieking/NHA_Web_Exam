@@ -188,7 +188,6 @@ footer {
     overflow-y: hidden ! important;
     overflow-x: hidden ! important;
     background-color: #f28800;
-    background-image: url("img/alkmaar.jpg");
     /*background-size: cover;*/
     background-size: contain;
     background-repeat: no-repeat;
