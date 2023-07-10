@@ -4,6 +4,19 @@
 
 body {}
 
+.header {
+  width: 100%;
+  height: 300px;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+  background-color: #f28800;
+  /*background-size: cover;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
 .h1 {
   color: Orange;
   font: 30px Arial, sans-serif;
