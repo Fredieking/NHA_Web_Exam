@@ -1,8 +1,34 @@
-[class="col-"] {
+body {}
+
+[class*="col-"] {
   width: 100%;
 }
 
+.header {
+  width: 100%;
+  height: 300px;
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+  background-color: #f28800;
+  background-image: url("img/alkmaar.jpg");
+  /*background-size: cover;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  ;
+}
+
+.h1 {
+  color: Orange;
+  font: 30px Arial, sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (min-width: 1200px) {
+  body {}
+
   [class*="col-"] {
     float: left;
     padding: 15px;
@@ -55,137 +81,111 @@
   .col-12 {
     width: 100%;
   }
-}
-Body{
-.header {
-  width: 100%;
-  height: 300px;
-  overflow-y: hidden ! important;
-  overflow-x: hidden ! important;
-  background-color: #f28800;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  ;
-}
 
-.h1 {
-  color: Orange;
-  font: 30px Arial, sans-serif;
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  .header {
+    width: 100%;
+    height: 300px;
+    overflow-y: hidden ! important;
+    overflow-x: hidden ! important;
+    background-color: #f28800;
+    background-image: url("img/alkmaar.jpg");
+    /*background-size: cover;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
 
-.topnav {
-  overflow: hidden;
-  background-color: orange;
-}
+  .h1 {
+    color: Orange;
+    font: 30px Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+  .section {
+    width: 50%;
+    display: inline-block;
+  }
 
-.topnav a:hover {
-  background-color: #fff100;
-  color: black;
-}
+  #inhoudeen {
+    width: 30%;
+    height: 700px;
+    background-color: #d89b0f;
+    float: left;
+  }
 
-.topnav a.active {
-  background-color: #fff100;
-  color: black;
-}
+  #inhoudtwee {
+    width: 70%;
+    height: 700px;
+    background-color: #d8800f;
+    float: left;
+  }
 
-.text {
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
-img {
-  width: 50%;
-  object-fit: scale-down;
-}
+  img {
+    max-width: 50%;
+    object-fit: scale-down;
+  }
 
-.image {
-  width: 50%;
-  object-fit: scale-down;
-}
+  .topnav {
+    overflow: hidden;
+    background-color: orange;
+  }
 
-.photo {
-  width: 25%;
-  object-fit: scale-down;
-  float: right;
-}
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
 
-.foto {
-  width: 25%;
-  object-fit: scale-down;
-  float: left;
-}
+  .topnav a:hover {
+    background-color: #fff100;
+    color: black;
+  }
 
-table {
-  width: 100%;
-}
+  .topnav a.active {
+    background-color: #fff100;
+    color: black;
+  }
 
-textarea {
-  height: 100px;
-  padding: 5px 4px;
-}
+  table {
+    width: 100%;
+  }
 
-input[type="text"],
-input[type="email"],
-textarea,
-select,
-button {
-  display: block;
-  margin: 15px 0px;
-  width: 100%;
-  box-sizing: border-box;
-  border-radius: 4px;
-  box-shadow: inset 2px 2px 5px orange;
-}
+  textarea {
+    height: 100px;
+    padding: 5px 4px;
+  }
 
-button:active {
-  background-color: orange;
-  color: black;
-  border-radius: 4px;
-  box-shadow: inset 2px 2px 5px lightyellow;
-}
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select,
+  button {
+    display: block;
+    margin: 15px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px orange;
+  }
 
-#inhoudeen {
-  width: auto;
-  height: 30%;
-  background-color: #d89b0f;
-  float: left;
-}
+  button:active {
+    background-color: orange;
+    color: black;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px lightyellow;
+  }
 
-#inhoudtwee {
-  width: auto;
-  height: 70%;
-  background-color: #d8800f;
-  float: left;
-  overflow: auto;
+  footer {
+    text-align: center;
+    min-height: 100px;
+    background-color: yellow;
+    clear: left;
+  }
 }
-
-.container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-}
-
-.section {
-  width: 50%;
-  display: inline-block;
-}
-
-footer {
-  text-align: center;
-  min-height: 100px;
-  background-color: yellow;
-  clear: left;
-}}
