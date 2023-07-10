@@ -109,6 +109,7 @@ body {}
     align-items: stretch;
     overflow-wrap: normal;
   }
+
   .section {
     width: 50%;
     display: inline-block;
@@ -116,14 +117,14 @@ body {}
 
   #inhoudeen {
     width: 30%;
-    height: 700px;
+    height: auto;
     background-color: #d89b0f;
     float: left;
   }
 
   #inhoudtwee {
     width: 70%;
-    height: 700px;
+    height: auto;
     background-color: #d8800f;
     float: left;
   }
