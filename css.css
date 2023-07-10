@@ -60,6 +60,11 @@ img {
   object-fit: scale-down;
 }
 
+.image1 {
+  max-width: 50%;
+  object-fit: scale-down;
+}
+
 .text {
   padding-left: 5px;
   padding-right: 5px;
