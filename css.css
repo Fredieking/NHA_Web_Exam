@@ -103,7 +103,11 @@ body {}
     background-size: cover;
     background-repeat: no-repeat;
   }
-
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
   .section {
     width: 50%;
     display: inline-block;
