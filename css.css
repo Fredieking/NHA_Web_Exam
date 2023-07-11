@@ -37,6 +37,10 @@ body {}
   float: left;
 }
 
+p{
+  text-align: justify;
+}
+
 img {
   object-fit: scale-down;
 }
