@@ -55,7 +55,8 @@ img {
 .photo {
   max-width: 25%;
   object-fit: scale-down;
-  clear: left;
+  float: left;
+  margin:5px;
 }
 
 .image {
