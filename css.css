@@ -24,6 +24,10 @@ body {}
   background-size: cover;
   background-repeat: no-repeat;
 }
+h2{
+  color: green;
+  font: 15px Arial, sans-serif;
+}
 
 #inhoudeen {
   height: auto;
