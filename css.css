@@ -78,7 +78,6 @@ img {
 }
 
 
-
 .topnav a {
   float: left;
   color: black;
@@ -134,7 +133,7 @@ footer {
   clear: left;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 762px) {
   body {}
 
   [class*="col-"] {
@@ -228,9 +227,9 @@ footer {
     background-color: #d8800f;
     float: left;
   }
-    .topnav {
-      overflow: hidden;
-      background-color: orange;
-    }
+ul.topnav li.right,
+ul.topnav li {
+  float: none;
+}
 }
 
