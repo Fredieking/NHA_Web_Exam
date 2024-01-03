@@ -77,10 +77,14 @@ img {
   padding-right: 5px;
 }
 
-ul.topnav {
+.topnav {
   list-style-type: none;
   overflow: hidden;
   background-color: #ff8800;
+}
+
+.topnav li {
+  float: left;
 }
 
 .topnav li a {
