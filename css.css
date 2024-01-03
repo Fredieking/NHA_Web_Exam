@@ -77,13 +77,13 @@ img {
   padding-right: 5px;
 }
 
-.topnav {
+ul.topnav {
   list-style-type: none;
   overflow: hidden;
   background-color: #ff8800;
 }
 
-.topnav a {
+.topnav li a {
   float: left;
   color: black;
   text-align: center;
@@ -92,12 +92,12 @@ img {
   font-size: 17px;
 }
 
-.topnav a:hover {
+.topnav li a:hover {
   background-color: #fff100;
   color: black;
 }
 
-.topnav a.active {
+.topnav li a.active {
   background-color: #fff100;
   color: black;
 }
