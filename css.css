@@ -240,5 +240,7 @@ footer {
   .topnav li {
     float: left;
   }
+    .topnav li a {
+      float: left;
 }
 
